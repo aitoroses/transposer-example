@@ -2,29 +2,29 @@ var transposer = require('transposer')
 
 // json payload
 var json = {
-    'soap:env': {
-        'soap:head': {
-            'soap:faulto': "some value"
-        },
-        'soap:body': {
-            'runtimedata':{
-                'tickets': [{
-                        "id": 1,
-                        "artist": 'beyonce',
-                        "price": 70
-                    },{
-                        "id": 2,
-                        "artist": 'bisbal',
-                        "price": 20
-                    },{
-                        "id": 3,
-                        "artist": 'bonjovi',
-                        "price": 10
-                    }
-                ]
-            }
-        }
+  'soap:env': {
+    'soap:head': {
+      'soap:faulto': "some value"
+    },
+    'soap:body': {
+      'runtimedata':{
+        'tickets': [{
+            "id": 1,
+            "artist": 'beyonce',
+            "price": 70
+          },{
+            "id": 2,
+            "artist": 'bisbal',
+            "price": 20
+          },{
+            "id": 3,
+            "artist": 'bonjovi',
+            "price": 10
+          }
+        ]
+      }
     }
+  }
 }
 // Execute
 main();
