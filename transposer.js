@@ -51,8 +51,10 @@ function main() {
 	// Jquery like syntax
 	// Bon Jovi's price is: number 10
 	var bonjoviPrice = $('..tickets[?(@.artist=bonjovi)]..price', json, 0);
-	log("Bon Jovi's price is: " +  typeof bonjoviPrice + ' ' + bonjoviPrice);
+	log("Bon Jovi's price is:", typeof bonjoviPrice, bonjoviPrice);
 }
+
+//----------------------------------------------
 
 /**
  * HELPERS
